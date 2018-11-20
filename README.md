@@ -133,7 +133,7 @@ pry(main)> building.renter_with_highest_rent
 
 ## Iteration 4
 
-Use TDD to update your Building class so that it responds to the following interaction pattern. Note that the `annual_breakdown` method should ignore units with no renter.
+Use TDD to add an `annual_breakdown` method to your Building class. This method should associate a renter name with the amount they pay in rent for the whole year. Note that the `annual_breakdown` method should ignore units with no renter. Your Building class should now respond to the following interaction pattern:
 
 ```ruby
 pry(main)> require './lib/building'
